@@ -1,0 +1,6 @@
+@use 'base/variables' as va;
+
+.header{
+    background-color: va.$grisOscuro;
+    padding: 1rem 0 5rem 0;
+}
