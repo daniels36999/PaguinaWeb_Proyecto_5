@@ -41,3 +41,35 @@
         font-weight: $black;
     }
 }
+
+//ANUNCIO--------------------------
+.anuncio-precio{
+    color: $verde;
+    font-size: 4.5rem;
+    font-weight: bold;
+
+}
+
+.anuncio-descripcion{
+    text-align: justify;
+}
+
+.anuncio-centrar{
+    padding: 0;
+    display: flex;
+
+
+    li{
+        flex: 1; 
+        display: flex;
+        justify-content: center;
+        gap:2rem
+    }
+
+    img{
+        flex: 0 0 50px;
+    }
+    
+
+    
+}
