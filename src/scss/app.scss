@@ -3,9 +3,17 @@
 @import 'base/mixins';
 @import 'base/globales';
 @import 'base/utilidades';
+@import 'base/botones';
 
 
 //LAYOUT
 @import 'layout/header';
 @import 'layout/footer';
 @import 'layout/navegacion';
+@import 'layout/iconos';
+@import 'layout/anuncios';
+@import 'layout/contacto';
+@import 'layout/blog';
+@import 'layout/inferior';
+@import 'layout/testimoniales';
+@import 'layout/nosotros';
