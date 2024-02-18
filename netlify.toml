@@ -1,3 +1,0 @@
-[build]
-  ignore = "gulpfile.js, package.json, README.md"
-  command = "npm run build"
