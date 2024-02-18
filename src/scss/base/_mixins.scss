@@ -29,11 +29,15 @@
     text-decoration: none;
     padding: 1rem 3rem;
     text-align: center;
-    margin-top: calc($separacion / 2) 0;
+    margin-top: 2rem;
     display: $display;
+    border: none;
 
     &:hover{
         background-color: darken($bgColor, 10);
+        &:hover{
+            cursor: pointer;
+        }
     }
 
 }
