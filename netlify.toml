@@ -1,2 +1,2 @@
 [build]
-ignore= ["gulpfile.js", "package.json", "README.md", ".gitignore", "src"]
+ignore= ["gulpfile.js", "package.json", "README.md", "src"]
