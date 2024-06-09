@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded',function(){
     
     eventListeners();
     darkMode();
+    agregarFooter();
 
 });
 
@@ -77,4 +78,25 @@ function darkMode(){
         }
     });
 
+}
+
+function agregarFooter() {
+    const anio = new Date().getFullYear();
+
+    const p = document.createElement('p');
+    p.className = 'copyrigth';
+
+    const texto = document.createTextNode(`Todos los derechos reservados © ${anio} | `);
+    p.appendChild(texto);
+
+    const button = document.createElement('button');
+    button.textContent = 'Daniels Yautibug';
+    button.onclick = () => clicEnlace('https://github.com/daniels36999');
+    p.appendChild(button);
+
+    function clicEnlace(url) {
+        window.location.href = url;
+    }
+
+    document.getElementById('app').appendChild(p);
 }

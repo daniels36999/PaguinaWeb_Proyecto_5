@@ -1,12 +1,19 @@
+.iconos-nosotros{
+    padding: 0 2rem;
+}
+
+
 @include tablet{
     .iconos-nosotros{
-        @include grid(3, 2rem);
+        padding: 0 10rem;
+        @include grid(3, 5rem);
     }
 }
 
 .icono{
 
-    text-align: center;
+    text-align: justify;
+
 
     img{
         height: 10rem;

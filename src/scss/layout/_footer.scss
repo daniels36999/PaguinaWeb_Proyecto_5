@@ -1,12 +1,14 @@
 .footer{
     //padding: $separacion / 2 0; //Obsoleto
-    padding: calc($separacion / 2) 0;
+    //padding: calc($separacion / 2) 0;
+    padding: 0;
     background-color: $grisOscuro;
     margin-bottom: 0;
 
     .contenedor-footer{
         //padding-top: $separacion / 2; //Obsoleto
-        padding-top: calc($separacion / 2) 0;
+        //padding-top: calc($separacion / 2) 0;
+        padding: 5rem 0;
     }
 
     .navegacion {
@@ -19,4 +21,32 @@
         color: $blanco;
         text-align: center;
     }
+}
+
+/* PIE DE PAGINA */
+.footer-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6vw 3vw ;
+    min-height: 6rem;
+    background-color: rgb(35, 35, 35);
+
+}
+
+.footer-container-2 button{
+    background-color: transparent;
+    padding: 0; 
+    margin: 0;
+    border: none;
+    color: rgb(76, 141, 2);
+}
+
+.footer-container-2 button:hover{
+    cursor: pointer;
+}
+
+.footer-container-2 p{
+    text-align: center;
+    color: #ffffff;
 }
